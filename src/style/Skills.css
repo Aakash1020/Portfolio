@@ -1,0 +1,197 @@
+.skills {
+  display: grid;
+  place-items: center;
+  position: relative;
+  height: 100vh;
+}
+.skills__info {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.skills__info__change {
+  background-color: rgb(255, 255, 255);
+}
+.rows__columns {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  background: none;
+}
+.row1 {
+  display: flex;
+  flex: 1;
+  place-items: center;
+  padding: 40px;
+}
+.row1 > .column1 {
+  margin-right: 70px;
+}
+.row1 > .column1 > .col1__minitext {
+  font-size: 1rem;
+}
+.row1 > .column1 > .col1__text1 {
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
+}
+.row1 > .column1 > .dash {
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.row1 > .column1 > .dash__change {
+  border-bottom: 2px solid rgb(255, 153, 0);
+  transition-timing-function: ease-in;
+  transition: all 1s;
+}
+.row1 > .column2 {
+  line-height: 1.5;
+}
+
+.row1 > .column2 > .col2__text1 {
+  font-weight: 500;
+  color: black;
+  font-size: 2.5rem;
+}
+.row1 > .column2 > .col2__text2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.row1 > .column2 > .year {
+  font-weight: 500;
+  background-color: black;
+  padding: 3px 10px;
+  border-radius: 3px;
+  color: rgb(255, 153, 0);
+}
+
+.Border1 {
+  border-bottom: 1px solid rgb(255, 153, 0);
+}
+
+.row2 {
+  display: flex;
+  flex: 1;
+  padding: 40px;
+  list-style: none;
+}
+.row2 > .column2__visible {
+  background-color: rgb(0, 0, 0);
+  width: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.76);
+}
+
+.row2 > .column1 > .col1__text1 {
+  color: black;
+  font-size: 2.5rem;
+}
+.row2 > .column1 > .dash__change {
+  border-bottom: 2px solid rgb(255, 153, 0);
+}
+.row2 > .column1 {
+  margin-right: 80px;
+}
+.row2 > .column2__visible li {
+  padding: 10px 10px;
+}
+.row2 > .column2__visible > li > .h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+.row2 > .column2__visible > li > .bar1 {
+  background: #000000;
+  display: block;
+  height: 5px;
+  border: 1px solid rgba(255, 208, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.467);
+}
+.row2 > .column2__visible > li > .bar1 > span {
+  height: 5px;
+  float: left;
+  background: rgb(255, 153, 0);
+}
+.blackcolor {
+  background-color: black;
+}
+.cpp {
+  width: 90%;
+  animation: cpp 2s;
+}
+.html {
+  width: 98%;
+  animation: html 3s;
+}
+.css {
+  width: 95%;
+  animation: css 3.5s;
+}
+.java {
+  width: 60%;
+  animation: java 4s;
+}
+.react {
+  width: 60%;
+  animation: react 2.7s;
+}
+.python {
+  width: 50%;
+  animation: python 3.8s;
+}
+@keyframes cpp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 98%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
